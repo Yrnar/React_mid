@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 
 import { TbSearch } from "react-icons/tb"
-import { AiOutlineHeart } from "react-icons/ai"
 import { Link } from "react-router-dom";
 
 import "./Header.css";
@@ -29,8 +28,7 @@ const Header = () => {
                     </ul>
                     <div className="center"><Link to="/" className="router-link">Twitter</Link></div>
                     <div className="right">
-                      <Link to="/find" className="router-link">  <TbSearch /> </Link>
-                        <Link to="/favourite" className="router-link"><AiOutlineHeart /></Link>
+                      <Link to="/profile" className="router-link">Profile</Link>
                     </div>
                 </div>
             </header>
